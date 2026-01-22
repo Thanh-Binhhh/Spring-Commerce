@@ -105,7 +105,6 @@ Base URL: http://localhost:8080/
 | GET    | `plants/price`    | Get the minimum and maximum price of the product    |
 | GET    | `plants/filter`    | Filter product(s) by criteria(s)    |
 | GET    | `/carts`    | Get cart information    |
-
 | POST    | `/carts` | Create a cart if none exists; otherwise add the product or increase its quantity. |
 | DELETE    | `/carts`    | Reduce product quantity or remove product from cart    |
 | GET    | `/categories`    | Get list of categories    |
