@@ -1,4 +1,5 @@
-## Spring Commerce
+# 🌷 Spring Commerce
+
 ## Bonsai Shop
 
 This is a simple online plant shopping application designed to showcase and sell plant products such as indoor plants, outdoor plants, etc. Here, users can browse the displayed products, add them to the cart, and place an order if they want.
@@ -96,51 +97,20 @@ The application uses Spring Security to ensure the security of RESTful Web Servi
 
 Base URL: http://localhost:8080/
 
----
-Get all products (with pagination)
-[GET: /plants?currentPage={$currentPage}]
+| Method | Endpoind |  |
+|------|------|------|
+| GET    | `/plants?currentPage={$currentPage}` | Get all products (with pagination) |
+| GET    | `/plants?id={$id}`    | Get a product details    |
+| GET    | `plants/ids`    | Get products by id list    |
+| GET    | `plants/price`    | Get the minimum and maximum price of the product    |
+| GET    | `plants/filter`    | Filter product(s) by criteria(s)    |
+| GET    | `/carts`    | Get cart information    |
 
----
-Get a product details
-[GET: /plants?id={$id}]
-
----
-Get products by id list
-[GET: plants/ids]
-
----
-Get the minimum and maximum price of the product
-[GET: plants/price]
-
----
-Filter product(s) by criteria(s)
-[GET: plants/filter]
-
----
-Get cart information
-[GET: /carts]
-
----
-Create a new cart if the customer does not have a cart before. 
-Otherwise, add the product to the cart if it is not in the cart, otherwise increase the number of products in the cart.
-[POST: /carts]
-
----
-Reduce product quantity or remove product from cart
-[DELETE: /carts]
-
----
-Get list of categories
-[GET: /categories]
-
----
-Get list of sizes of plant
-[GET: /sizes]
-
----
-Get list of characteristics
-[GET: /characteristics]
-
+| POST    | `/carts` | Create a new cart if the customer does not have a cart before.<br>Otherwise, add the product to the cart if it is not in the cart, otherwise increase the number of products in the cart. |
+| DELETE    | `/carts`    | Reduce product quantity or remove product from cart    |
+| GET    | `/categories`    | Get list of categories    |
+| GET    | `/sizes`    | Get list of sizes of plant    |
+| GET    | `/characteristics`    | Get list of characteristics    |
 
 ## Video for demonstration
 
