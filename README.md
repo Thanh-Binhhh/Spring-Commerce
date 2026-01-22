@@ -1,6 +1,4 @@
-# 🌷 Spring Commerce
-
-## Bonsai Shop
+# 🌷 Bonsai Shop
 
 This is a simple online plant shopping application designed to showcase and sell plant products such as indoor plants, outdoor plants, etc. Here, users can browse the displayed products, add them to the cart, and place an order if they want.
 
