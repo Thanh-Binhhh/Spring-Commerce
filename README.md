@@ -106,7 +106,7 @@ Base URL: http://localhost:8080/
 | GET    | `plants/filter`    | Filter product(s) by criteria(s)    |
 | GET    | `/carts`    | Get cart information    |
 
-| POST    | `/carts` | Create a new cart if the customer does not have a cart before.<br>Otherwise, add the product to the cart if it is not in the cart, otherwise increase the number of products in the cart. |
+| POST    | `/carts` | Create a cart if none exists; otherwise add the product or increase its quantity. |
 | DELETE    | `/carts`    | Reduce product quantity or remove product from cart    |
 | GET    | `/categories`    | Get list of categories    |
 | GET    | `/sizes`    | Get list of sizes of plant    |
