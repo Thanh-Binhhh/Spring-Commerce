@@ -1,0 +1,127 @@
+.product-detail__wrapper {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .product-detail__thumbnails {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .product-detail__images {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #f9f9f9;
+    display: flex;
+    flex: 1 1 40%;
+    border: 1px solid #eee;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-detail__main-img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+  }
+  
+  
+  .product-detail__thumb {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    padding: 0.3rem;
+    cursor: pointer;
+  }
+  
+  .product-detail__thumb.active {
+    border: 2px solid #80d742;
+  }
+  
+  .product-detail__info {
+    flex: 1 1 50%;
+    margin-left: 3rem;
+  }
+  
+  .product-detail__title {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .product-detail__price {
+    color: var(--first-color-alt);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+  }
+
+  .product-detail__desc {
+    text-align: justify;
+    margin-top: 2rem;
+    line-height: 1.9
+  }
+  
+  .product-detail__actions {
+    display: flex;
+    gap: 0.8rem;
+    margin: 1rem 0;
+    align-items: center;
+  }
+  
+  .quantity-control {
+    background-color: #F2F4F5;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.4rem 1rem;
+  }
+  
+  .qty-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .add-to-cart {
+    background-color: var(--first-color-alt);
+    color: white;
+    padding: 0.7rem 4rem;
+  }
+  
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 2.5rem 0;
+  }
+  
+  .product-detail__tabs {
+    margin-top: 4rem;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1rem;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+  }
+  
+  .tab.active {
+    color: #80d742;
+    font-weight: 600;
+    border-bottom: 2px solid #80d742;
+  }
+
+  .product-detail__meta {
+    margin: 0.8rem 0;
+    display: flex;
+    justify-content: space-between;
+  }

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <link rel="stylesheet" href="../assets/css/custom.css">
+        <link rel="stylesheet" href="../assets/css/checkout.css">
+
+        <title>Spring Commerce</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-leaf-line nav__logo-icon"></i> SpringCommerce
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">FAQs</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== CHECKOUT ====================-->
+            <section class="product section container" id="checkout">
+                <h2 class="section__title-center">Checkout</h2>
+
+                <div class="checkout__container grid">
+                  <!-- Billing Details -->
+                  <div class="billing__details">
+                    <h3>BILLING DETAILS</h3>
+                    <form action="#" class="billing__form">
+                      <div class="billing__row">
+                        <input type="text" placeholder="First Name *" required>
+                       
+                      </div>
+                      <input type="email" placeholder="Email Address *" required>
+                      <input type="tel" placeholder="Phone Number *" required>
+                      <div class="billing__row">
+                        <input type="text" placeholder="Town/City *" required>
+                        <input type="text" placeholder="State/Province *" required>
+                      </div>
+                      <input type="text" placeholder="Address *" required>
+                    </form>
+                  </div>
+              
+                  <!-- Order Summary -->
+                  <div class="order__summary">
+                    <h3>YOUR ORDER</h3>
+
+                    <ul class="order__list">
+                      <li class="order__item">
+                        <span>Products:</span>
+                      </li>
+
+                      <li class="order__plant">
+                        <span>Recuerdos Plant</span>
+                        <span>$9.99</span>
+                      </li>
+
+                      <li class="order__item">
+                        <span>Subtotal</span>
+                        <span>$9.99</span>
+                      </li>
+                      <li class="order__item">
+                        <span>Shipping</span>
+                        <span>$3.00</span>
+                      </li>
+                      <li class="order__item total">
+                        <span>Order Total</span>
+                        <span>$12.99</span>
+                      </li>
+                    </ul>
+                    <button class="btn order__btn">PLACE ORDER</button>
+                  </div>
+                </div>
+              </section>
+              
+    
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> SpringCommerce
+                    </a>
+
+                    <h3 class="footer__title">
+                        Subscribe to our newsletter
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            Subscribe
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Address</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">1234 - India</li>
+                        <li class="footer__information">Delhi - 43210</li>
+                        <li class="footer__information">123-456-789</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+91 9988776655</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Techno White Fang. All rigths reserved</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="../assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="../aseets/js/main.js"></script>
+        <script src="../assets/js/addToCart.js"></script>
+    </body>
+</html>

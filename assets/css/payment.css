@@ -1,0 +1,70 @@
+/* Container tổng cho phần checkout */
+.checkout {
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+/* Bước thanh toán */
+.checkout-step {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #f7f7f7;
+    border-radius: 1rem;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.checkout-step.active {
+    display: flex;
+}
+
+.checkout h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2e7d32;
+}
+
+/* Ô nhập thông tin */
+.checkout-input {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+}
+
+/* Ảnh mã QR */
+.qr-image {
+    width: 300px;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #2e7d32;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Nút bấm */
+.btn {
+    background-color: #43a047;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.8rem;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #388e3c;
+}

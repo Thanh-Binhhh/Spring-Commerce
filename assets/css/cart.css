@@ -1,0 +1,189 @@
+.cart__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.cart__table th,
+.cart__table tr {
+  text-align: start;
+  padding: 1rem;
+  padding-left: 0rem;
+}
+
+.cart__total {
+  padding-top: 2rem;
+}
+
+.cart__item{
+  border-bottom: 1px solid #ddd;
+}
+
+.cart__product {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cart__img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+}
+
+.cart__quantity {
+  align-items: center;
+  vertical-align: middle;
+  gap: 0.5rem;
+}
+
+.qty-btn {
+  padding: 0.3rem 0.7rem;
+  font-size: 1rem;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: background 0.3s ease;
+}
+
+.qty-btn:hover {
+  background-color: #ddd;
+}
+
+.qty-value {
+  min-width: 20px;
+  text-align: center;
+  margin: 7px;
+}
+
+.cart__remove {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.cart__details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.cart__coupon h3,
+.cart__total h3 {
+  margin-bottom: 0.5rem;
+}
+
+.cart__coupon-input,
+.cart__input,
+.cart__select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin: 0.5rem 0;
+}
+
+.cart__coupon-btn,
+.cart__update-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cart__coupon-btn:hover,
+.cart__update-btn:hover {
+  background-color: #444;
+}
+
+.cart__total p {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.cart__total span {
+  font-weight: bold;
+}
+
+.checkout-btn {
+  background-color: var(--first-color);
+  padding: 10px;
+}
+
+   /* Modal overlay */
+ .modal {
+   display: none;
+   position: fixed;
+   z-index: 999;
+   left: 0; top: 0;
+   width: 100%; height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   justify-content: center;
+   align-items: center;
+   animation: fadeIn 0.3s ease;
+ }
+
+/* Modal content box */
+.modal-content {
+  background-color: #fff;
+  padding: 24px 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: slideUp 0.3s ease;
+  max-width: 450px;
+  width: 90%;
+}
+
+/* Modal buttons */
+.modal-content button {
+  padding: 8px 20px;
+  margin: 10px 5px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+#confirm-delete-btn {
+  background-color: #e53935;
+  color: white;
+}
+
+#confirm-delete-btn:hover {
+  background-color: #c62828;
+}
+
+#cancel-delete-btn {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+#cancel-delete-btn:hover {
+  background-color: #ddd;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { background-color: rgba(0,0,0,0); }
+  to { background-color: rgba(0,0,0,0.5); }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
