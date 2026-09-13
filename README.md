@@ -6,7 +6,7 @@ Frontend application for the Bonsai Shop project. The application is built using
 
 This project is a static HTML/CSS/JavaScript application, so the easiest way to run it is using the **Live Server** extension in Visual Studio Code.
 
-Base URL: `http://localhost:5500`
+Base URL: http://localhost:5500
 
 | Page          | URL                                  | Description                   |
 | ------------- | ------------------------------------ | ----------------------------- |
